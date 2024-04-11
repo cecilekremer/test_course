@@ -42,12 +42,6 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Built LaTeX
-        uses: xu-cheng/latex-action@v2
-        with:
-          latexmk_use_xelatex: true # add others on new line
-          root_file: |
-            slides.tex 
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
