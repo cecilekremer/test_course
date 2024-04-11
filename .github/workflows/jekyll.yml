@@ -47,7 +47,7 @@ jobs:
         with:
           latexmk_use_xelatex: true # add others on new line
           root_file: |
-            /course-material/slides.tex 
+            home/runner/work/test_course/test_course/course-material/slides.tex 
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
