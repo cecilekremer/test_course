@@ -43,6 +43,19 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: slides.tex
+          args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode
+          latexmk_use_xelatex: true
+      - name: Check pdf file
+        run: |
+          file slides.pdf | grep -q ' PDF '
+      - name: Upload file to repository
+        run: |
+          git config --global user.name "cecilekremer"
+          git config --global user.email "cecile.kremer@uhasselt.be"
+          git add slides.pdf
+          git commit -m "upload slides"
+          git push
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
