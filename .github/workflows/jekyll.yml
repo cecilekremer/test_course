@@ -45,10 +45,16 @@ jobs:
           root_file: slides.tex
           args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode
           latexmk_use_xelatex: true
-      - uses: actions/upload-artifact@v4
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
         with:
           name: PDF
           path: slides.pdf
+      - name: Download a Build Artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: PDF
+          path: path/to/PDF
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
