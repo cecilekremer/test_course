@@ -54,7 +54,6 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: PDF
-          path: path/to/PDF
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
