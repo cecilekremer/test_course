@@ -51,7 +51,7 @@ jobs:
           name: PDF
           path: slides.pdf
       - name: Download a Build Artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: PDF
           path: path/to/PDF
