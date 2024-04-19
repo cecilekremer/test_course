@@ -8,4 +8,4 @@ categories: course material
 **Topic 1:** Introduction to mathematical epidemiology
 
 - [Lecture](https://cecilekremer.github.io/test_course/slides.pdf)
-- [Exercises](https://cecilekremer.github.io/test_course/course-material/topic1/t1-exercises/t1-exercises)
+- [Exercises](https://cecilekremer.github.io/test_course/course-material/topic1/exercises)
