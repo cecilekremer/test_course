@@ -50,10 +50,6 @@ jobs:
         with:
           name: PDF
           path: slides.pdf
-      - name: Download a Build Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: PDF
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
