@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  false
+title:  
 permalink: /course-material/topic1/exercises
 date:   2024-04-19
 categories: course material
