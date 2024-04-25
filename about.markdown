@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Course material can be found [here](https://cecilekremer.github.io/test_course/course-material/course-material)
+Course material can be found [here](https://cecilekremer.github.io/test_course/course-material)
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
