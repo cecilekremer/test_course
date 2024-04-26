@@ -14,5 +14,5 @@ Mathematical models are increasingly used to study infectious disease transmissi
 Health interventions are assessed with respect to both effects and costs in health economic evaluations or health technology assessments. The objective is to optimize health outcomes for a constrained health budget. We elaborate in this course on cost-effectiveness and cost-benefit analyses for infectious disease interventions with a focus on vaccines. We demonstrate different types of uncertainty for economic evaluations and key aspects to evaluate preventive and curative medicine.
 
 
-<img src="../images/CombinedLogo.jpg" width="700" height="300">
+<img src="./images/CombinedLogo.jpg" width="600" height="250">
 
