@@ -29,6 +29,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+navigation:
+ - title: Announcements
+   url: /announcements.html
+
 # Build settings (possible themes: cayman, minimal, slate)
 # remote_theme: pages-themes/minimal@v0.2.0
 theme: minima # default theme
