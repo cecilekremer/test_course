@@ -7,7 +7,6 @@ title: null
 permalink: /
 ---
 
-## Course overview
 
 Mathematical models are increasingly used to study infectious disease transmission, simulate reactive strategies and inform policy. In this course we focus on dynamic or time-dependent models representing the transmission of evolutionary systems. We start with basic concepts of transmission models for infectious diseases and continue with parameter estimation and social contact patterns. The level of model complexity increases from deterministic compartmental models up to stochastic individual-based models and we provide hands-on tutorials in R.
 
